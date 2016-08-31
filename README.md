@@ -1,7 +1,9 @@
 #Marathon-lb vhost check
 
 `carton exec "perl marathon_lb_vhost_test.pl -v --marathon http://marathon.host --lb lb1.host --lb lb2.host"`
+
 or
+
 `docker run avastsoftware/marathon_lb_vhost_test -v --marathon http://marathon.host --lb lb1.host --lb lb2.host`
 
 example result:
