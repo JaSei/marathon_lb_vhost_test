@@ -1,0 +1,4 @@
+cpanfile.snapshot
+local/
+README.md
+Dockerfile
